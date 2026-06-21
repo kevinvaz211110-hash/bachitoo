@@ -1,0 +1,299 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:'Segoe UI', Arial, sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    background:#f4f6f9;
+    color:#333;
+}
+
+.contenedor{
+    width:980px;
+    margin:auto;
+}
+
+/* ENCABEZADO */
+.encabezado{
+    background:#0d1b2a;
+    overflow:hidden;
+}
+
+.logo{
+    float:left;
+    padding:10px;
+}
+
+.encabezado nav{
+    float:right;
+}
+
+.encabezado nav ul{
+    list-style:none;
+}
+
+.encabezado nav ul li{
+    display:inline-block;
+}
+
+.encabezado nav ul li a{
+    display:block;
+    color:white;
+    padding:25px;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.encabezado nav ul li a:hover{
+    background:#1b263b;
+}
+
+/* PRESENTACIÓN */
+.presentacion{
+    background:linear-gradient(135deg,#005bea,#00c6fb);
+    overflow:hidden;
+    padding:40px 0;
+}
+
+.introduccion-presentacion{
+    text-align:center;
+}
+
+.introduccion-presentacion h1{
+    color:white;
+    font-size:42px;
+    text-shadow:2px 2px 5px rgba(0,0,0,.4);
+}
+
+.introduccion-presentacion h1 span{
+    display:block;
+    font-size:18px;
+    margin-top:10px;
+}
+
+.aprender-mas{
+    display:block;
+    width:350px;
+    margin:30px auto;
+    padding:20px;
+    text-align:center;
+    text-decoration:none;
+    color:white;
+    font-size:28px;
+    border-radius:10px;
+    background:linear-gradient(to right,#00b09b,#96c93d);
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+    transition:.3s;
+}
+
+.aprender-mas:hover{
+    transform:scale(1.05);
+}
+
+.presentacion img{
+    display:block;
+    margin:auto;
+}
+
+/* ACCESO RÁPIDO */
+.acceso-rapido{
+    background:#16a34a;
+    text-align:center;
+    padding:20px 0;
+}
+
+.acceso-rapido h2{
+    color:white;
+    margin-bottom:20px;
+    border-bottom:2px solid white;
+    display:inline-block;
+    padding-bottom:10px;
+}
+
+.acceso-rapido figure{
+    display:inline-block;
+    width:24%;
+    text-align:center;
+}
+
+.acceso-rapido h3 a{
+    color:white;
+    text-decoration:none;
+}
+
+/* CONTENIDO */
+.bloque-contenido{
+    margin-top:20px;
+}
+
+.bloque-contenido .contenedor{
+    display:flex;
+}
+
+.articulos{
+    width:70%;
+    background:white;
+    padding:20px;
+}
+
+.articulos h2{
+    color:#005bea;
+    margin-bottom:20px;
+    border-bottom:3px solid #005bea;
+    padding-bottom:10px;
+}
+
+.articulos article{
+    margin-bottom:20px;
+    overflow:hidden;
+    border-bottom:1px solid #ddd;
+    padding-bottom:15px;
+}
+
+.articulos img{
+    float:left;
+    margin-right:15px;
+    width:180px;
+}
+
+.articulos article h1 a{
+    color:#333;
+    text-decoration:none;
+}
+
+.articulos article h1 a:hover{
+    color:#005bea;
+}
+
+.articulos article p{
+    text-align:justify;
+}
+
+/* BARRA LATERAL */
+.complementario{
+    width:30%;
+    background:#003566;
+    color:white;
+    padding:20px;
+}
+
+.complementario h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.complementario ul{
+    list-style:none;
+}
+
+.complementario ul li{
+    margin-bottom:10px;
+}
+
+.complementario ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+.complementario ul li a:hover{
+    color:#ffd60a;
+}
+
+/* VIDEO */
+video{
+    width:100%;
+    border-radius:10px;
+}
+
+/* SUSCRIPCIÓN */
+.suscripcion{
+    background:#e9ecef;
+    padding:20px;
+    margin-top:20px;
+    overflow:hidden;
+}
+
+.suscripcion h2{
+    float:left;
+    margin-top:10px;
+}
+
+.suscripcion form{
+    float:right;
+}
+
+.suscripcion input{
+    padding:10px;
+    border:1px solid #ccc;
+}
+
+.suscripcion input[type="submit"]{
+    background:#005bea;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.suscripcion input[type="submit"]:hover{
+    background:#003f88;
+}
+
+/* PIE DE PÁGINA */
+.piedepagina{
+    background:#0d1b2a;
+    padding:20px 0;
+    margin-top:20px;
+}
+
+.piedepagina .contenedor{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.piedepagina small{
+    color:white;
+}
+
+.piedepagina nav ul{
+    list-style:none;
+}
+
+.piedepagina nav ul li{
+    display:inline-block;
+    margin-left:15px;
+}
+
+.piedepagina nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+.piedepagina nav ul li a:hover{
+    color:#ffd60a;
+}
+
+/* REDES SOCIALES */
+.social{
+    position:fixed;
+    top:30%;
+    right:10px;
+}
+
+.social a{
+    display:block;
+    margin-bottom:5px;
+    opacity:.8;
+}
+
+.social a:hover{
+    opacity:1;
+}
+
+.social img{
+    border-radius:50%;
+}
